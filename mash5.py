@@ -93,6 +93,7 @@ def decoder_thread():
 
 #play a dot
 def dot(): 
+        print('dot')
         GPIO.output(buzPin,1)
         time.sleep(0.2)
         GPIO.output(buzPin,0)
@@ -100,6 +101,7 @@ def dot():
 
 #play a dash
 def dash():
+        print('dash')
         GPIO.output(buzPin,1)
         time.sleep(0.5)
         GPIO.output(buzPin,0)
